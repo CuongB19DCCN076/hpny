@@ -2,7 +2,11 @@
 const PI2 = Math.PI * 2
 const random = (min, max) => Math.random() * (max - min + 1) + min | 0
 const timestamp = _ => new Date().getTime()
+$( ".abccc div" ).on( "click", function() {
+  $(".abccc").hide();
+  $('#song')[0].play();
 
+} );
 // container
 class Birthday {
   constructor() {

@@ -57,7 +57,7 @@ h3 u:nth-child(3){
 }
 h3 u:nth-child(4){
     animation: colorChange 10s infinite;;
-    font-size: 1.2em;
+    font-size: 1.4em;
     text-shadow: 10px 10px 20px rgba(255,255, 255, 0.5);
 }
 @keyframes colorChange {
@@ -117,4 +117,24 @@ h5{
     font-weight: 500;
     -webkit-user-select: none;
     user-select: none;
+}
+.abccc{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #000000;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.abccc div{
+    padding: 10px 20px;
+    background-color: #1d00f7;
+    color: white;
+    border: 1px solid #ffee06;
+    border-radius: 10px;
 }
